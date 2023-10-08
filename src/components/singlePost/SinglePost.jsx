@@ -58,7 +58,9 @@ export default function SinglePost() {
                 className="singlePostIcon far fa-trash-alt"
                 onClick={handleDelete}
               ></i>
-              <span className="link">Delete</span>
+              <span onClick={handleDelete} className="link">
+                Delete
+              </span>
             </div>
           )}
         </h1>
