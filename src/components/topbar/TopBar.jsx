@@ -39,13 +39,11 @@ export default function TopBar() {
       </div>
       <div className="topRight">
         {user ? (
-          <Link to="/settings">
-            <img
-              className="topImg"
-              src="https://crowd-literature.eu/wp-content/uploads/2015/01/no-avatar.gif"
-              alt=""
-            />
-          </Link>
+          <img
+            className="topImg"
+            src="https://crowd-literature.eu/wp-content/uploads/2015/01/no-avatar.gif"
+            alt=""
+          />
         ) : (
           <ul className="topList">
             <li className="topListItem">
